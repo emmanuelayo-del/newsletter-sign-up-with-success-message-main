@@ -117,6 +117,10 @@ input, button {
     background-color: hsla(4, 100%, 67%, .1);
 }
 
+.text-color {
+    color: hsl(4, 100%, 67%);
+}
+
 /*FOOTER STYLING*/
 .attribution {
     font-size: 11px;

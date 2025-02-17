@@ -4,6 +4,8 @@
 const emailEL = document.querySelector('.email--field')
 const btnSubscribe = document.querySelector('.btn-subscribe')
 const valiedEmailEL = document.querySelector('.valid--email')
+const textColor = document.querySelector('.text-color')
+const targetEmail = document.querySelector('.target-email')
 
 const successPage = document.querySelector('.success')
 const signupPage = document.querySelector('.sign--up')
@@ -21,17 +23,18 @@ btnSubscribe.addEventListener('click', function() {
         valiedEmailEL.classList.remove('hidden')
         //2. border color should change to tomato red
         // 3. background color should change to tomato red
-        emailEL.classList.add('error')
-    }else if(emailRegex.test(email)) {
+       
+    } else if(emailRegex.test(email)) {
         signupPage.classList.add('hidden')
         successPage.classList.remove('hidden')
+        targetEmail.textContent = email;
         
     } else {
          valiedEmailEL.classList.remove('hidden')
         //2. border color should change to tomato red
-        // 3. background color should change to tomato red
-        emailEL.classList.add('error')
-        emailEL.value.style.color = 'hsl(4, 100%, 67%)'
+            // 3. background color should change to tomato red
+         emailEL.classList.add('error')
+         emailEL.classList.add('text-color')
     }
     
 })
