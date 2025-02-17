@@ -1,0 +1,128 @@
+/* RESET STYLING */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+input, button {
+    background: none;
+    border: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* SIGN UP FORM STYLING */
+.text-info {
+    margin: 1em 0;
+}
+.heading-text {
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+    font-size: 1.6em;
+    margin-bottom: .5em;
+}
+.body-text {
+    color: hsl(234, 29%, 20%);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.list-item {
+    margin: 1em 0;   
+}
+.list {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    margin-bottom: .7em;
+    color: hsl(234, 29%, 20%);
+    font-weight: 500;
+}
+
+.list p {
+    font-size: 1em;
+}
+
+/* FORM STYLING */
+.form-info {
+    margin: 1em 0;
+}
+.email {
+    display: flex;
+    justify-content: space-between;
+    font-size: .7em;
+    font-weight: 500;
+}
+.email-address {
+    color: hsl(234, 29%, 20%)
+}
+.valid--email {
+    color: hsl(4, 100%, 67%);
+}
+.email--field {
+    width: 100%;
+    margin: .5em 0;
+    border: 1px solid hsl(231, 7%, 60%);
+    padding: 1em 1em;
+    border-radius: 10px
+}
+.btns {
+    width: 100%;
+    padding: 1em 1em;
+    border-radius: 10px;
+    background-color: hsl(234, 29%, 20%);
+    color: #fff;
+    margin: .5em 0;
+    font-weight: 700;
+}
+
+/* SUCCESS MESSAGE STYLING*/
+
+.top {
+    margin: 5em 0;
+}
+.top img {
+    margin-bottom: 1em;
+}
+.thanks {
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: .5em;
+    color: hsl(234, 29%, 20%);
+}
+.confirmation-message {
+    font-size: 1em;
+    color: hsl(234, 29%, 20%);
+    line-height: 1.5em;
+}
+.target-email {
+    font-weight: 700;
+}
+
+/* STATE STYLING */
+.hidden {
+    display: none;
+}
+.error {
+    border: 1px solid hsl(4, 100%, 67%);
+    background-color: hsla(4, 100%, 67%, .1);
+}
+
+/*FOOTER STYLING*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
