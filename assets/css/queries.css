@@ -1,0 +1,29 @@
+@media (min-width: 400px) {
+    body {
+        background-color: hsl(234, 29%, 20%);
+    }
+    #wrapper {
+        width: 80%;
+        max-width: 600px;
+        margin: 5em auto;
+    }   
+    .mobile-image {
+        display: none;
+    }
+    .desktop-image {
+        display: block;
+    }
+    .sign--up {
+        display: flex;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 1em;
+        gap: 1em;
+    }
+    .images {
+        order: 1;
+    }
+    .success {
+        background: #fff;
+    }
+}

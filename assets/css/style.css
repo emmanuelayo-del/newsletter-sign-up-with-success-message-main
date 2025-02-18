@@ -16,12 +16,18 @@ input, button {
     background: none;
     border: none;
 }
+button {
+    cursor: pointer;
+}
 .container {
     width: 90%;
     margin: 0 auto;
 }
 
 /* SIGN UP FORM STYLING */
+.desktop-image {
+    display: none
+}
 .text-info {
     margin: 1em 0;
 }
@@ -35,6 +41,9 @@ input, button {
     color: hsl(234, 29%, 20%);
     font-size: 1em;
     line-height: 1.5em;
+}
+.btns:hover {
+    background: hsl(4, 100%, 67%);
 }
 .list-item {
     margin: 1em 0;   
