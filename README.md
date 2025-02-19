@@ -34,7 +34,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![mobile-image](./screenshots/iPhone-13-PRO-127.0.0.1.png)
+[desktop-image](./screenshots/Macbook-Air-127.0.0.1.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 

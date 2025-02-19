@@ -1,5 +1,7 @@
 /* RESET STYLING */
-*, ::before, ::after {
+*,
+::before,
+::after {
     box-sizing: border-box;
     margin: 0;
     font-family: 'Roboto';
@@ -12,13 +14,17 @@ img {
 li {
     list-style-type: none;
 }
-input, button {
+
+input,
+button {
     background: none;
     border: none;
 }
+
 button {
     cursor: pointer;
 }
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -28,26 +34,32 @@ button {
 .desktop-image {
     display: none
 }
+
 .text-info {
     margin: 1em 0;
 }
+
 .heading-text {
     color: hsl(234, 29%, 20%);
     font-weight: 700;
     font-size: 1.6em;
     margin-bottom: .5em;
 }
+
 .body-text {
     color: hsl(234, 29%, 20%);
     font-size: 1em;
     line-height: 1.5em;
 }
+
 .btns:hover {
-    background: hsl(4, 100%, 67%);
+    background: linear-gradient(to right, pink, hsl(4, 100%, 67%));
 }
+
 .list-item {
-    margin: 1em 0;   
+    margin: 1em 0;
 }
+
 .list {
     display: flex;
     align-items: flex-start;
@@ -65,18 +77,22 @@ button {
 .form-info {
     margin: 1em 0;
 }
+
 .email {
     display: flex;
     justify-content: space-between;
     font-size: .7em;
     font-weight: 500;
 }
+
 .email-address {
     color: hsl(234, 29%, 20%)
 }
+
 .valid--email {
     color: hsl(4, 100%, 67%);
 }
+
 .email--field {
     width: 100%;
     margin: .5em 0;
@@ -84,6 +100,7 @@ button {
     padding: 1em 1em;
     border-radius: 10px
 }
+
 .btns {
     width: 100%;
     padding: 1em 1em;
@@ -99,28 +116,34 @@ button {
 .top {
     margin: 5em 0;
 }
+
 .top img {
     margin-bottom: 1em;
 }
+
 .thanks {
     font-size: 2em;
     line-height: 1em;
     margin-bottom: .5em;
     color: hsl(234, 29%, 20%);
 }
+
 .confirmation-message {
     font-size: 1em;
     color: hsl(234, 29%, 20%);
     line-height: 1.5em;
 }
+
 .target-email {
     font-weight: 700;
 }
 
 /* STATE STYLING */
+
 .hidden {
     display: none;
 }
+
 .error {
     border: 1px solid hsl(4, 100%, 67%);
     background-color: hsla(4, 100%, 67%, .1);

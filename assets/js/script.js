@@ -27,6 +27,7 @@ btnSubscribe.addEventListener('click', function() {
     } else if(emailRegex.test(email)) {
         signupPage.classList.add('hidden')
         successPage.classList.remove('hidden')
+        // valiedEmailEL.classList.remove('hidden')
         targetEmail.textContent = email;
         
     } else {
