@@ -44,6 +44,7 @@ btnDismiss.addEventListener('click', ()=> {
     successPage.classList.add('hidden');
     signupPage.classList.remove('hidden');
     valiedEmailEL.classList.add('hidden')
+    emailEL.classList.remove('text-color')
     emailEL.classList.remove('error')
     emailEL.value = '';
 })
